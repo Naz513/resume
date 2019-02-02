@@ -75,7 +75,7 @@ a:after {
   text-align:center;
   background-attachment: relative;
   background-position: center center;
-  min-height: 500px;
+  min-height: 700px;
   width: 100%;
 
   -webkit-background-size: 100%;
@@ -310,8 +310,20 @@ body {
   animation-name: fadeInUp;
   }
 
+.typed {
+  font-size: 30px;
+}
 
   img {
     width: 200px;
     height: 200px;
+    padding-bottom: 5%;
+  }
+
+  .text-center {
+    padding-bottom: 10%;
+  }
+
+  .title {
+    font-size: 30px;
   }
