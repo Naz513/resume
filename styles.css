@@ -1,17 +1,18 @@
 body {
   background-color: #f2f2f2;
-  font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
+  font-family: "Lato";
+  /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 16px;
   color: #555;
-
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
 }
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+  font-family: "Raleway";
+  /* OPTIONAL: Google Fonts - title font */
   font-weight: 300;
   color: #333;
 }
@@ -23,14 +24,13 @@ p {
 }
 
 .centered {
-    text-align: center;
+  text-align: center;
 }
 
 /* Links */
 a {
   color: #1CBCAD;
   word-wrap: break-word;
-
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -54,7 +54,7 @@ a:after {
   transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
   display: block;
   height: 1px;
   border: 0;
@@ -66,23 +66,20 @@ a:after {
 /*---------------------------------------------------
   SECTION WRAPS
 ---------------------------------------------------*/
-
 /* Header Wrap */
 .header {
   background: #1CBCAD;
   background: url(images/head.jpg) no-repeat center top;
-  padding-top:140px;
-  text-align:center;
+  padding-top: 140px;
+  text-align: center;
   background-attachment: relative;
   background-position: center center;
   min-height: 700px;
   width: 100%;
-
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -148,7 +145,6 @@ a:after {
 }
 
 /* Global Values */
-
 .desc {
   padding-top: 50px;
 }
@@ -176,7 +172,6 @@ a:after {
   color: #616669;
   font-size: 12px;
 }
-
 
 sm {
   font-size: 12px;
@@ -308,22 +303,27 @@ body {
   -moz-animation-name: fadeInUp;
   -o-animation-name: fadeInUp;
   animation-name: fadeInUp;
-  }
+}
 
 .typed {
   font-size: 30px;
 }
 
-  img {
-    width: 200px;
-    height: 200px;
-    padding-bottom: 5%;
-  }
+img {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 5%;
+}
 
-  .text-center {
-    padding-bottom: 10%;
-  }
+.text-center {
+  padding-bottom: 10%;
+}
 
-  .title {
-    font-size: 30px;
-  }
+.title {
+  font-size: 30px;
+}
+
+/*NAVBAR*/
+.custom-center {
+  margin: auto;
+}
