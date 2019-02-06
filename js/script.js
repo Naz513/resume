@@ -54,4 +54,8 @@ $(document).ready(function() {
     $('.navbar').removeClass('d-none');
   });
 
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 });
